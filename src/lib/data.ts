@@ -20,6 +20,7 @@ import {
   Server,
   FileText,
   Cpu,
+  Cake,
 } from "lucide-react";
 import { PlaceHolderImages } from "./placeholder-images";
 
@@ -38,11 +39,22 @@ export const NAV_LINKS = [
     { href: "/contact", label: "Contact" },
 ]
 
+const getAge = (birthDate: string) => {
+  const today = new Date();
+  const birthDateObj = new Date(birthDate);
+  let age = today.getFullYear() - birthDateObj.getFullYear();
+  const m = today.getMonth() - birthDateObj.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < birthDateObj.getDate())) {
+    age--;
+  }
+  return age;
+}
+
 export const STATS: Stat[] = [
-  { icon: Briefcase, value: 5, label: "Years of Experience" },
-  { icon: BarChartBig, value: 42, label: "Projects Completed" },
-  { icon: Server, value: 7, label: "Industries Worked" },
-  { icon: Cpu, value: 15, label: "Tools Mastered" },
+  { icon: Briefcase, value: 2, label: "Years of Experience" },
+  { icon: BarChartBig, value: 15, label: "Projects Completed" },
+  { icon: Cake, value: getAge("2005-05-12"), label: "Age" },
+  { icon: Cpu, value: 10, label: "Tools Mastered" },
 ];
 
 export const PROJECTS: Project[] = [
@@ -115,21 +127,14 @@ export const SERVICES: Service[] = [
 
 export const RESUME_EXPERIENCE: ResumeItem[] = [
   {
-    period: "2021 - Present",
-    title: "Senior Data Analyst",
-    company: "Tech Solutions Inc.",
-    description:
-      "Led a team of analysts to deliver data-driven insights for Fortune 500 clients. Specialized in predictive analytics and BI dashboard development.",
-  },
-  {
-    period: "2019 - 2021",
+    period: "2022 - Present",
     title: "Data Analyst",
-    company: "Innovate Analytics",
+    company: "Tech Solutions Inc.",
     description:
       "Cleaned and analyzed large datasets to identify market trends. Created reports that influenced marketing campaign strategies.",
   },
   {
-    period: "2018 - 2019",
+    period: "2021 - 2022",
     title: "Junior Analyst",
     company: "Data Corp",
     description:
@@ -140,18 +145,18 @@ export const RESUME_EXPERIENCE: ResumeItem[] = [
 export const RESUME_EDUCATION: EducationItem[] = [
     {
         institution: "University of Data Science",
-        degree: "M.S. in Data Analytics",
-        period: "2016 - 2018"
+        degree: "B.S. in Data Analytics",
+        period: "2021 - 2025"
     },
     {
         institution: "State University",
-        degree: "B.S. in Statistics",
-        period: "2012 - 2016"
+        degree: "Associate's in Statistics",
+        period: "2019 - 2021"
     }
 ]
 
 export const RESUME_SKILLS: string[] = [
-    "Python", "R", "SQL", "Tableau", "Power BI", "Excel", "Pandas", "NumPy", "Scikit-learn", "TensorFlow", "Statistics", "Machine Learning"
+    "Python", "R", "SQL", "Tableau", "Power BI", "Excel", "Pandas", "NumPy", "Scikit-learn", "Statistics", "Machine Learning"
 ]
 
 export const RESUME_CERTIFICATIONS: Certification[] = [

@@ -8,18 +8,15 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
           <Code className="h-6 w-6 text-primary" />
           <p className="text-center text-sm leading-loose md:text-left">
-            Built by Data Insights Portfolio.
+            Built by Ngwasiri Chelsea.
           </p>
         </div>
         <div className="flex items-center gap-4">
-            <Link href="#" aria-label="Github">
+            <Link href="https://github.com" aria-label="Github" target="_blank">
                 <Github className="h-6 w-6 hover:text-primary transition-colors" />
             </Link>
-            <Link href="#" aria-label="LinkedIn">
+            <Link href="https://linkedin.com" aria-label="LinkedIn" target="_blank">
                 <Linkedin className="h-6 w-6 hover:text-primary transition-colors" />
-            </Link>
-            <Link href="#" aria-label="Twitter">
-                <Twitter className="h-6 w-6 hover:text-primary transition-colors" />
             </Link>
         </div>
       </div>

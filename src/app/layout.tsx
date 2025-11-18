@@ -24,8 +24,8 @@ const fontCode = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Data Insights Portfolio',
-  description: 'Transforming Raw Data Into Clear Insight',
+  title: 'Ngwasiri Chelsea | Data Analyst Portfolio',
+  description: 'Data Analyst Portfolio for Ngwasiri Chelsea',
 };
 
 export default function RootLayout({

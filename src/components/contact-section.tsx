@@ -21,19 +21,15 @@ export default function ContactSection() {
             <div className="flex items-center gap-4">
               <Mail className="h-6 w-6 text-primary" />
               <a
-                href="mailto:hello@datainsights.com"
+                href="mailto:ngwasirichelsea@gmail.com"
                 className="hover:text-primary transition-colors"
               >
-                hello@datainsights.com
+                ngwasirichelsea@gmail.com
               </a>
             </div>
             <div className="flex items-center gap-4">
               <Phone className="h-6 w-6 text-primary" />
-              <span>(123) 456-7890</span>
-            </div>
-            <div className="flex items-center gap-4">
-              <MapPin className="h-6 w-6 text-primary" />
-              <span>San Francisco, CA</span>
+              <span>+237 650982351</span>
             </div>
           </div>
         </div>
