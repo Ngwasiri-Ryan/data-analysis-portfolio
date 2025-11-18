@@ -9,7 +9,7 @@ export default function StatsSection() {
           {STATS.map((stat) => (
             <div
               key={stat.label}
-              className="relative overflow-hidden rounded-lg border border-border bg-card/50 p-6 backdrop-blur-sm transition-all hover:border-primary/50"
+              className="relative overflow-hidden rounded-lg border border-border bg-card p-6 transition-all hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10"
             >
               <div className="flex items-start justify-between">
                 <div className="space-y-1">
@@ -24,9 +24,6 @@ export default function StatsSection() {
                   </div>
                 </div>
                 <stat.icon className="h-8 w-8 text-primary" />
-              </div>
-              <div className="absolute bottom-0 left-0 h-1 w-full bg-primary/20">
-                <div className="h-1 w-1/3 bg-primary"></div>
               </div>
             </div>
           ))}

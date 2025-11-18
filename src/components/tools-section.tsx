@@ -2,7 +2,7 @@ import { TOOLS } from "@/lib/data";
 
 export default function ToolsSection() {
   return (
-    <section id="tools" className="w-full bg-muted/50">
+    <section id="tools" className="w-full">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">

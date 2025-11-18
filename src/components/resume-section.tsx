@@ -60,15 +60,17 @@ export default function ResumeSection() {
             </div>
              <div>
                 <h3 className="font-headline text-2xl font-semibold mb-4">Certifications</h3>
-                <div className="space-y-2">
-                    {RESUME_CERTIFICATIONS.map((cert) => (
-                        <div key={cert.name} className="flex items-center gap-3">
-                            <cert.icon className="w-5 h-5 text-accent"/>
-                            <div>
-                                <p className="font-semibold">{cert.name}</p>
-                                <p className="text-sm text-muted-foreground">{cert.issuer}</p>
-                            </div>
-                        </div>
+                <div className="space-y-4">
+                    {RESUME_CERTIFICATIONS.map((cert)_ => (
+                        <Card key={cert.name} className="bg-card/50">
+                            <CardContent className="p-4 flex items-center gap-4">
+                                <cert.icon className="w-8 h-8 text-accent flex-shrink-0"/>
+                                <div>
+                                    <p className="font-semibold">{cert.name}</p>
+                                    <p className="text-sm text-muted-foreground">{cert.issuer}</p>
+                                </div>
+                            </CardContent>
+                        </Card>
                     ))}
                 </div>
             </div>

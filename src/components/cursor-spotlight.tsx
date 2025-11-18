@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 export default function CursorSpotlight() {
-  const [position, setPosition] = useState({ x: -100, y: -100 });
+  const [position, setPosition] = useState({ x: -200, y: -200 });
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
@@ -27,7 +27,7 @@ export default function CursorSpotlight() {
     <div
       className="pointer-events-none fixed inset-0 z-50 hidden transition duration-300 lg:block"
       style={{
-        background: `radial-gradient(600px at ${position.x}px ${position.y}px, rgba(20, 184, 166, 0.1), transparent 80%)`,
+        background: `radial-gradient(600px at ${position.x}px ${position.y}px, hsla(215, 100%, 44%, 0.1), transparent 80%)`,
       }}
     />
   );

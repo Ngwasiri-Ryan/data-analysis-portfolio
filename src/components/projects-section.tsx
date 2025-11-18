@@ -4,7 +4,7 @@ import ProjectDescriptionGenerator from "./project-description-generator";
 
 export default function ProjectsSection() {
   return (
-    <section id="projects" className="w-full bg-muted/50">
+    <section id="projects" className="w-full">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
