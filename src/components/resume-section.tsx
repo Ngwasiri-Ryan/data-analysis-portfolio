@@ -3,7 +3,7 @@ import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import { Download } from "lucide-react";
 import Link from "next/link";
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import { Card, CardContent } from "./ui/card";
 
 export default function ResumeSection() {
   return (
@@ -61,7 +61,7 @@ export default function ResumeSection() {
              <div>
                 <h3 className="font-headline text-2xl font-semibold mb-4">Certifications</h3>
                 <div className="space-y-4">
-                    {RESUME_CERTIFICATIONS.map((cert)_ => (
+                    {RESUME_CERTIFICATIONS.map((cert) => (
                         <Card key={cert.name} className="bg-card/50">
                             <CardContent className="p-4 flex items-center gap-4">
                                 <cert.icon className="w-8 h-8 text-accent flex-shrink-0"/>
