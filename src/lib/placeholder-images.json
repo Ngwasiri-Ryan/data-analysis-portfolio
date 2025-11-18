@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-dashboard",
+      "description": "A floating 3D analytics dashboard.",
+      "imageUrl": "https://images.unsplash.com/photo-1593318560857-6cb2d0ed5c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkYXNoYm9hcmQlMjBhbmFseXRpY3N8ZW58MHx8fHwxNzYzNDA0NzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dashboard analytics"
+    },
+    {
+      "id": "project-1",
+      "description": "Project 1 preview image",
+      "imageUrl": "https://images.unsplash.com/photo-1584291527935-456e8e2dd734?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkYXRhJTIwdmlzdWFsaXphdGlvbnxlbnwwfHx8fDE3NjMzOTk3NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data visualization"
+    },
+    {
+      "id": "project-2",
+      "description": "Project 2 preview image",
+      "imageUrl": "https://picsum.photos/seed/proj2/500/350",
+      "imageHint": "predictive model"
+    },
+    {
+      "id": "project-3",
+      "description": "Project 3 preview image",
+      "imageUrl": "https://images.unsplash.com/photo-1748609160056-7b95f30041f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyZXBvcnQlMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzYzNDU1NjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "report dashboard"
+    }
+  ]
 }
