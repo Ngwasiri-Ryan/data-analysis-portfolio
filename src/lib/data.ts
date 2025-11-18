@@ -31,12 +31,11 @@ const projectImages = {
 
 
 export const NAV_LINKS = [
-    { href: "#home", label: "Home" },
-    { href: "#stats", label: "Stats" },
-    { href: "#projects", label: "Projects" },
-    { href: "#services", label: "Services" },
-    { href: "#resume", label: "Resume" },
-    { href: "#contact", label: "Contact" },
+    { href: "/", label: "Home" },
+    { href: "/projects", label: "Projects" },
+    { href: "/services", label: "Services" },
+    { href: "/resume", label: "Resume" },
+    { href: "/contact", label: "Contact" },
 ]
 
 export const STATS: Stat[] = [

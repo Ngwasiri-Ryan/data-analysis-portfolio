@@ -9,7 +9,7 @@ export default function Header() {
     <header className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur-lg">
       <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
         <div className="flex gap-6 md:gap-10">
-          <Link href="#home" className="flex items-center space-x-2">
+          <Link href="/" className="flex items-center space-x-2">
             <Code className="h-6 w-6 text-primary" />
             <span className="inline-block font-bold">Data Insights</span>
           </Link>
@@ -36,7 +36,7 @@ export default function Header() {
               </SheetTrigger>
               <SheetContent side="right">
                 <nav className="grid gap-6 text-lg font-medium mt-8">
-                  <Link href="#home" className="flex items-center gap-2 text-lg font-semibold">
+                  <Link href="/" className="flex items-center gap-2 text-lg font-semibold">
                     <Code className="h-6 w-6 text-primary" />
                     <span className="sr-only">Data Insights</span>
                   </Link>

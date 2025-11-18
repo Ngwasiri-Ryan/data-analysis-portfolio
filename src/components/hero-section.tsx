@@ -36,7 +36,7 @@ export default function HeroSection() {
                 </Link>
               </Button>
               <Button asChild size="lg" variant="secondary">
-                <Link href="#contact">
+                <Link href="/contact">
                   Contact Me
                   <Send className="ml-2 h-4 w-4" />
                 </Link>
