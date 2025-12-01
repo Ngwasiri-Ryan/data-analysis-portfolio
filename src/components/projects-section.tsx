@@ -24,9 +24,9 @@ export default function ProjectsSection() {
             <ProjectCard key={project.title} project={project} />
           ))}
         </div>
-        <div className="mx-auto max-w-4xl pt-12">
+        {/* <div className="mx-auto max-w-4xl pt-12">
             <ProjectDescriptionGenerator />
-        </div>
+        </div> */}
       </div>
     </section>
   );
