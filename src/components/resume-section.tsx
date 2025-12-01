@@ -89,50 +89,51 @@ export default function ResumeSection() {
             {/* Tabs list */}
             <Card>
               <CardContent className="p-3 sm:p-4">
-                <TabsList
-                  className="
-                    flex h-auto w-full gap-2 bg-transparent p-0
-                    overflow-x-auto
-                    lg:grid lg:grid-cols-2
-                    xl:flex xl:flex-col xl:items-stretch
-                  "
-                >
-                  <NavTab
-                    value="experience"
-                    icon={Briefcase}
-                    label="Experience"
-                    sub="Roles & impact"
-                    count={counts.experience}
-                  />
-                  <NavTab
-                    value="projects"
-                    icon={Sparkles}
-                    label="Projects"
-                    sub="Proof of work"
-                    count={counts.projects}
-                  />
-                  <NavTab
-                    value="skills"
-                    icon={Wrench}
-                    label="Skills"
-                    sub="Tools & methods"
-                    count={counts.skills}
-                  />
-                  <NavTab
-                    value="education"
-                    icon={GraduationCap}
-                    label="Education"
-                    sub="Study & training"
-                    count={counts.education}
-                  />
-                  <NavTab
-                    value="certifications"
-                    icon={Ribbon}
-                    label="Certifications"
-                    sub="Credentials"
-                    count={counts.certifications}
-                  />
-                </TabsList>
+             <TabsList
+  className="
+    flex flex-col h-auto w-full gap-2 bg-transparent p-0
+    overflow-y-auto
+    sm:flex-col
+    lg:grid lg:grid-cols-2
+    xl:flex xl:flex-col xl:items-stretch
+  "
+>
+  <NavTab
+    value="experience"
+    icon={Briefcase}
+    label="Experience"
+    sub="Roles & impact"
+    count={counts.experience}
+  />
+  <NavTab
+    value="projects"
+    icon={Sparkles}
+    label="Projects"
+    sub="Proof of work"
+    count={counts.projects}
+  />
+  <NavTab
+    value="skills"
+    icon={Wrench}
+    label="Skills"
+    sub="Tools & methods"
+    count={counts.skills}
+  />
+  <NavTab
+    value="education"
+    icon={GraduationCap}
+    label="Education"
+    sub="Study & training"
+    count={counts.education}
+  />
+  <NavTab
+    value="certifications"
+    icon={Ribbon}
+    label="Certifications"
+    sub="Credentials"
+    count={counts.certifications}
+  />
+</TabsList>
               </CardContent>
             </Card>
 
