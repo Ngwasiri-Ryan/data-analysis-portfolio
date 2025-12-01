@@ -92,7 +92,7 @@ export default function ResumeSection() {
                 <TabsList
                   className="
                     flex h-auto w-full gap-2 bg-transparent p-0
-                    overflow-x-auto sm:overflow-visible
+                    overflow-x-auto
                     lg:grid lg:grid-cols-2
                     xl:flex xl:flex-col xl:items-stretch
                   "
