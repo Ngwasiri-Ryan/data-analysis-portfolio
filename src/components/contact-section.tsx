@@ -99,7 +99,7 @@ export default function ContactSection() {
                     href="mailto:ngwasirichelsea@gmail.com"
                     className="text-base font-medium hover:text-primary transition-colors"
                   >
-                    ngwasirichelsea@gmail.com
+                    ngwasirichelsea902@gmail.com
                   </a>
                 </div>
               </CardContent>
@@ -114,7 +114,7 @@ export default function ContactSection() {
                     href="tel:+237650982351"
                     className="text-base font-medium hover:text-primary transition-colors"
                   >
-                    +237 650 982 351
+                    +237 679418746
                   </a>
                 </div>
               </CardContent>
@@ -140,7 +140,7 @@ export default function ContactSection() {
                     <p className="text-sm text-muted-foreground">LinkedIn</p>
                     <a
                       href="#"
-                      className="text-base font-medium hover:text-primary transition-colors"
+                      className="text-sm font-medium hover:text-primary transition-colors"
                     >
                       linkedin.com/in/yourname
                     </a>
@@ -155,7 +155,7 @@ export default function ContactSection() {
                     <p className="text-sm text-muted-foreground">GitHub</p>
                     <a
                       href="#"
-                      className="text-base font-medium hover:text-primary transition-colors"
+                      className="text-sm font-medium hover:text-primary transition-colors"
                     >
                      github.com/ngwasirichelsea902-commits
                     </a>
