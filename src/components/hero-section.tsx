@@ -2,6 +2,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Download, Send, ExternalLink, Sparkles, Zap, TrendingUp } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import Me from '@/assets/pic.png'
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 
@@ -141,7 +142,7 @@ export default function HeroSection() {
             {/* Main Image */}
             <div className="relative bg-white rounded-xl shadow-2xl border overflow-hidden">
               <Image
-                src={heroImage.imageUrl}
+                src={Me}
                 alt={heroImage.description}
                 width={600}
                 height={500}
