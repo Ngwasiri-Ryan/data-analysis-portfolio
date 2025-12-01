@@ -12,7 +12,7 @@ export default function Footer() {
           </p>
         </div>
         <div className="flex items-center gap-4">
-            <Link href="https://github.com" aria-label="Github" target="_blank">
+            <Link href="https://github.com/ngwasirichelsea902-commits" aria-label="Github" target="_blank">
                 <Github className="h-6 w-6 hover:text-primary transition-colors" />
             </Link>
             <Link href="https://linkedin.com" aria-label="LinkedIn" target="_blank">

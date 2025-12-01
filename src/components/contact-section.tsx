@@ -157,7 +157,7 @@ export default function ContactSection() {
                       href="#"
                       className="text-base font-medium hover:text-primary transition-colors"
                     >
-                      github.com/yourname
+                     github.com/ngwasirichelsea902-commits
                     </a>
                   </div>
                 </CardContent>

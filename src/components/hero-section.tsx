@@ -91,7 +91,7 @@ export default function HeroSection() {
                 LinkedIn
               </Link>
               <Link 
-                href="https://github.com/yourprofile" 
+                href="https://github.com/ngwasirichelsea902-commits" 
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 <div className="w-8 h-8 bg-gray-800 rounded flex items-center justify-center">
