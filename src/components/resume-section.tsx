@@ -88,12 +88,12 @@ export default function ResumeSection() {
 
             {/* Tabs list */}
             <Card>
-              <CardContent className="p-3 sm:p-4">
+              <CardContent className="p-3 sm:px-1">
              <TabsList
   className="
     flex flex-col h-auto w-full gap-2 bg-transparent p-0
     overflow-y-auto
-    sm:flex-col
+    sm:flex-col sm:px-1
     lg:grid lg:grid-cols-2
     xl:flex xl:flex-col xl:items-stretch
   "

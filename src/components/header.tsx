@@ -2,7 +2,7 @@ import { NAV_LINKS } from "@/lib/data";
 import { Code, Menu } from "lucide-react";
 import Link from "next/link";
 import { Button } from "./ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "./ui/sheet";
 
 export default function Header() {
   return (
@@ -35,10 +35,13 @@ export default function Header() {
                 </Button>
               </SheetTrigger>
               <SheetContent side="right">
+                {/* Add SheetTitle for accessibility */}
+                <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
+                
                 <nav className="grid gap-6 text-lg font-medium mt-8">
                   <Link href="/" className="flex items-center gap-2 text-lg font-semibold">
                     <Code className="h-6 w-6 text-primary" />
-                    <span className="sr-only">Ngwasiri Chelsea</span>
+                    Ngwasiri Chelsea
                   </Link>
                   {NAV_LINKS.map((link) => (
                     <Link
